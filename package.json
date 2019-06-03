@@ -1,0 +1,33 @@
+{
+  "name": "redux-phoenix-middleware",
+  "version": "1.0.0",
+  "description": "Redux Actions ↔ Phoenix Channel Messages",
+  "module": "es/index.js",
+  "main": "dist/index.js",
+  "author": "futpib <futpib@gmail.com>",
+  "license": "MIT OR GPL-3.0-or-later",
+  "scripts": {
+    "build": "rollup -c",
+    "test": "xo && nyc ava"
+  },
+  "devDependencies": {
+    "ava": "^1.4.1",
+    "babel-plugin-ramda": "^2.0.0",
+    "coveralls": "^3.0.3",
+    "eslint-config-xo-overrides": "^1.3.0",
+    "nyc": "^14.1.1",
+    "rollup": "^1.12.3",
+    "rollup-plugin-babel": "^4.3.2",
+    "rollup-plugin-uglify": "^6.0.2",
+    "xo": "^0.24.0"
+  },
+  "dependencies": {
+    "phoenix": "^1.4.6",
+    "ramda": "^0.26.1"
+  },
+  "xo": {
+    "extends": [
+      "eslint-config-xo-overrides"
+    ]
+  }
+}
