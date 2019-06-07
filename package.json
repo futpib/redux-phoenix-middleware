@@ -11,7 +11,7 @@
     "test": "xo && nyc ava"
   },
   "devDependencies": {
-    "ava": "^1.4.1",
+    "ava": "^2.0.0",
     "babel-plugin-ramda": "^2.0.0",
     "coveralls": "^3.0.3",
     "eslint-config-xo-overrides": "^1.3.0",
