@@ -18,6 +18,7 @@ import {
 const phoenixReducer = createPhoenixReducer();
 const phoenixMiddleware = createPhoenixMiddleware({
 	sockets: {
+		// You can specify one or many sockets here, each under a unique key
 		socket: {
 			// Sockets are automatically connected by default
 			endPoint: BASE_URL + '/socket',
