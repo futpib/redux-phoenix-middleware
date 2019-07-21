@@ -18,6 +18,7 @@
   "author": "futpib <futpib@gmail.com>",
   "license": "MIT OR GPL-3.0-or-later",
   "scripts": {
+    "prepublish": "yarn build",
     "build": "rollup -c",
     "test": "xo && nyc ava"
   },

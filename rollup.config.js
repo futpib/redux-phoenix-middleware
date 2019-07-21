@@ -4,6 +4,7 @@ const base = {
 	input: 'src/index.js',
 	plugins: [
 		babel({
+			babelrc: false,
 			plugins: [
 				'ramda',
 			],
