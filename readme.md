@@ -44,7 +44,7 @@ const store = createStore(combineReducers({
 	phoenix: phoenixReducer,
 }), initialState, applyMiddleware(phoenixMiddleware));
 
-// Somwhere else:
+// Somewhere else:
 
 const state = store.getState();
 
