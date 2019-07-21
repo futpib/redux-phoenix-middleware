@@ -1,6 +1,6 @@
 {
   "name": "redux-phoenix-middleware",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Declarative automatic bidirectional maping between Redux Actions and Phoenix Channel Messages",
   "keywords": [
     "redux",
