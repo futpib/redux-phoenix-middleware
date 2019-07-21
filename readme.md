@@ -19,8 +19,10 @@ const phoenixReducer = createPhoenixReducer();
 const phoenixMiddleware = createPhoenixMiddleware({
 	sockets: {
 		socket: {
+			// Sockets are automatically connected by default
 			endPoint: BASE_URL + '/socket',
 			channels: {
+				// Channels are automatically joined (once the socket is connected) by default
 				'room:lobby': true,
 			},
 		},
