@@ -42,7 +42,7 @@
   },
   "dependencies": {
     "phoenix": "^1.4.9",
-    "ramda": "^0.26.1"
+    "ramda": "^0.28.0"
   },
   "xo": {
     "extends": [
