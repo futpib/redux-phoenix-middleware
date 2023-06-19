@@ -30,7 +30,7 @@
     "eslint-config-xo-overrides": "^1.4.0",
     "execa": "^4.0.0",
     "fetish": "^0.1.1",
-    "isomorphic-ws": "^4.0.1",
+    "isomorphic-ws": "^5.0.0",
     "nyc": "^15.0.0",
     "p-retry": "^4.1.0",
     "redux": "^4.0.4",
