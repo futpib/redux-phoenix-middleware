@@ -38,7 +38,7 @@
     "rollup-plugin-babel": "^4.3.3",
     "rollup-plugin-uglify": "^6.0.2",
     "ws": "^7.1.1",
-    "xo": "^0.24.0"
+    "xo": "^0.58.0"
   },
   "dependencies": {
     "phoenix": "^1.4.9",
